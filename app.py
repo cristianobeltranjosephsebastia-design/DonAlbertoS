@@ -20,7 +20,7 @@ def get_repuestos():
 	"status": "online",
 	"servidor": "Ubuntu de Cristiano Sebastian",
 	"hora_servidor": str(datetime.datetime.now()),
-	"inventario": ["Bujias de Iridio", "Filtro de aceite", "Aceite Motul 7100"]
+	"inventario": ["Bujias de Iridio", "Filtro de aceite", "Aceite Motul 7100", "Piston", "Filtro de aire", "Zapatas"]
 	})
 
 
