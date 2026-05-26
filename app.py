@@ -32,7 +32,7 @@ def crear_peritraje():
 		return jsonify({"Error":"Falta el dato de la placa"}), 400
 
 	nuevo_peritraje =  {
-	   "placa": data['placa'],
+	   "placa": data['placa'].upper(),
 	   "modelo": data.get('modelo', '2026'),
 	   "fecha_registro": str(datetime.datetime.now())
 
