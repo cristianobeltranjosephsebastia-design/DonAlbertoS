@@ -12,7 +12,7 @@ echo "Trayendo la ultima version desde git"
 
 git pull origin master
 source venv/bin/activate
-pip install -r requeriments.txt --quiet
+pip install -r requirements.txt --quiet
 
 # Reiniciar el servicio de systemd
 
